@@ -1,0 +1,24 @@
+$TTL    604800
+@       IN      SOA     okd4-services.hassanlab.local. admin.hassanlab.local. (
+                  6     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+             604800     ; Negative Cache TTL
+)
+
+; name servers - NS records
+    IN      NS      okd4-services.hassanlab.local.
+
+; name servers - PTR records
+210    IN    PTR    okd4-services.hassanlab.local.
+
+; OpenShift Container Platform Cluster - PTR records
+200    IN    PTR    okd4-bootstrap.okd.hassanlab.local.
+201    IN    PTR    okd4-control-plane-1.okd.hassanlab.local.
+202    IN    PTR    okd4-control-plane-2.okd.hassanlab.local.
+203    IN    PTR    okd4-control-plane-3.okd.hassanlab.local.
+204    IN    PTR    okd4-compute-1.okd.hassanlab.local.
+205    IN    PTR    okd4-compute-2.okd.hassanlab.local.
+210    IN    PTR    api.okd.hassanlab.local.
+210    IN    PTR    api-int.okd.hassanlab.local.
