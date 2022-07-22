@@ -1,4 +1,4 @@
-zone "home.lab" {
+zone "hassanlab.local" {
     type master;
     file "/etc/named/zones/db.home.lab"; # zone file path
 };
