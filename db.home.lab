@@ -34,5 +34,5 @@ oauth-openshift.apps.okd.hassanlab.local.     IN     A     172.16.3.210
 ; OpenShift internal cluster IPs - SRV records
 _etcd-server-ssl._tcp.okd.hassanlab.local.    86400     IN    SRV     0    10    2380    etcd-0.lab
 _etcd-server-ssl._tcp.okd.hassanlab.local.    86400     IN    SRV     0    10    2380    etcd-1.lab
-_etcd-server-ssl._tcp.okd.hhassanlab.local.    86400     IN    SRV     0    10    2380    etcd-2.lab
+_etcd-server-ssl._tcp.okd.hassanlab.local.    86400     IN    SRV     0    10    2380    etcd-2.lab
 
